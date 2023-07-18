@@ -1,1 +1,57 @@
-
+.container {
+    max-width: 400px;
+    height: 95vh;
+    margin: 0 auto;
+    padding-left: 70px;
+    align-items: center;
+    border-radius: 5px;
+    border-color: rgb(255, 242, 0);
+    background-color: rgb(0, 0, 0);
+    float: center;
+    overflow: auto;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-right: 100px ;
+    color: white;
+  }
+  
+  input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+  
+  button {
+    display: block;
+    width: 325px;
+    padding: 10px;
+    background-color: #313775;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    width: 305px;
+    margin-bottom: 5px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    position: relative;
+  }
+  
+  li.completed {
+    text-decoration: line-through;
+    background-color: #d3d3d3;
+  }
+  
+body{
+    background-image: url("tasks.jpg");
+}
